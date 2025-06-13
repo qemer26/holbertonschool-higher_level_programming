@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""Defines a class Student with public attributes and JSON serialization."""
+
+
 class Student:
     """Class that defines a student."""
 
