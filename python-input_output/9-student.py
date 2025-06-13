@@ -1,7 +1,3 @@
-#!/usr/bin/python3
-"""Defines a class Student with public attributes and JSON serialization."""
-
-
 class Student:
     """Class that defines a student."""
 
@@ -13,4 +9,4 @@ class Student:
 
     def to_json(self):
         """Return the dictionary representation of the Student."""
-        return self.__dict__ 
+        return self.__dict__
