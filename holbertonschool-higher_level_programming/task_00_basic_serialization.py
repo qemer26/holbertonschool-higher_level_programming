@@ -8,7 +8,7 @@ def serialize_and_save_to_file(data, filename):
         json.dump(data, write)
 
 def load_and_deserialize(filename):
-    # Your code here to load and deserialize data from the specified file
+    # Your code here to load and deserialize data from the specified file.
     file = open(filename)   
     data = json.load(file)
     return data
